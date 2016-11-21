@@ -1,16 +1,897 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Wonderous.org | Nick Henegar </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--  Favicon  -->
+    <link type="image/x-icon" rel="shortcut icon" href="../img/lolicon.ico">
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-xxxx-y', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <div id="everything">
+        <!--<a href="#contactform"><img src="img/flag.png" id="contactbutton" /></a>-->
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle"><span class="glyphicon glyphicon-remove"></span></a>
+            <li class="sidebar-brand">
+                <a href="../" onclick=$("#menu-close").click();>Home</a>
+            </li>
+
+            <li>
+                <a href="portfolio.html" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <!--Start First Menu Dropdown-->
+            <li id="portItem">
+                <a href="#">Mini Projects<span id="portCaret" class="glyphicon glyphicon-chevron-right"></span></a>
+                <ul class="dropList">
+                    <li><a href="../demos/GitHubQuery" onClick=$("#menu-close").click(); target="_blank">GitHub API with AngularJS</a></li>
+                    <li><a onClick=$("#menu-close").click(); id="rickTime">DO NOT CLICK HERE!</a></li>
+                <!--Start Third Menu Dropdown-->
+                    <li id="portItem3">
+                        <a>LOL<span id="portCaret3" class="glyphicon glyphicon-chevron-right"></span></a>
+                        <ul class="dropList3">
+                            <li><img src="../img/lol.png" class="db" /></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/nicholas-henegar-a3ba3872" target="_blank" id="liButton" class="btn btn-info liContact" onClick=$("#menu-close").click();)>See LinkedIn Profile! <span class="glyphicon glyphicon-new-window"></span></a>
+            </li>
+            <li id="liContact">
+                <a href="https://github.com/TlME" target="_blank" id="gitButton" class="btn btn-info" onClick=$("#menu-close").click();)>See Github Profile! <span class="glyphicon glyphicon-new-window"></span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Nick Henegar</h1>
+            <h3>Developer At Large</h3>
+            <p>
+                <a href="#Experience" class="btn btn-dark btn-lg">Experience</a>
+                <a href="#Personality" class="btn btn-dark btn-lg">Personality</a>
+                <a href="#BusinessAcumen" class="btn btn-dark btn-lg">Business Acumen</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/nicholas-henegar-a3ba3872" target="_blank" class="btn btn-dark btn-lg">LinkedIn <span class="glyphicon glyphicon-new-window"></span></a>
+                <a href="https://github.com/TlME" target="_blank" class="btn btn-dark btn-lg">GitHub <span class="glyphicon glyphicon-new-window"></span></a>
+                <a href="/portfolio.html" class="btn btn-dark btn-lg">Recent Projects</a>
+            </p>
+
+        </div>
+    </header>
+
+<!---START Dev SKILLS SECTION-->
+    <section id="Experience" class="blueBG">
+        <div class="container" >
+            <div class="row text-center">
+                <h1>Programming Experience</h1>
+                <hr class="small">
+               
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/EXCEL_logo.png" alt="Microsoft Excel" class="languageItem">
+                        <h4>
+                            <strong>Java</strong>
+                        </h4>
+                        <a data-target="#modalExcel" role="button" data-toggle="modal" class="btn btn-warning">Skill Summary</a>
+                        <div class="modal fade" id="modalExcel">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/EXCEL_logo.png" alt="Microsoft Excel" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>Ah, Java.</h3>
+                                           Like its namesake, Java is available everywhere, comes in a variety of flavors, and is depended upon by millions of people to function in their daily lives.
+                                        </p>
+                                        <p>
+                                           Java was my first love when it comes to programming langauges. It has all the beauty of Python, with the power and versatility of C-based langauges. If only it had a better PR team, and less version conflicts, it would truly be perfect. 
+                                        </p>
+                                        <p>
+                                            <strong>
+                                               I will write things in Java.
+                                                <ul>
+                                                    <li>Small applications</li>
+                                                    <li>Large Applications</li>
+                                                    <li>Compatible Mobile Apps</li>
+                                                    <li>Horrible, Meme-spewing chatbots</li>
+
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/SQL_logo.png" alt="SQL & Database" class="languageItem">
+                        <h4>
+                            <strong>SQL</strong>
+                        </h4>
+                        <a data-target="#modalSQL" role="button" data-toggle="modal" class="btn btn-warning">Skill Summary</a>
+                        <div class="modal fade" id="modalSQL">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/SQL_logo.png" alt="JavaScript" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>It's a data-driven world.</h3>
+                                            Any programmer worth his salt has to have an understanding and deep respect for DBMS and especially RDBMS. 
+                                        </p>
+                                        <p>
+                                            As a developer I have worked with DBMS off and on throughout the years, and even have done some coding to make my own loose database system within applications that needed some CRUD functionality.
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                I have worked with:
+                                                <ul>
+                                                    <li>SQL Server 2008+</li>
+                                                    <li>SQL Server 2012</li>
+                                                    <li>SQL Server 2016</li>
+                                                    <li>MySQL*</li>
+
+                                                </ul>
+                                            </strong>
+                                            *Only a little bit
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/Python_logo.png" alt="Python" class="languageItem">
+                        <h4>
+                            <strong>Python</strong>
+                        </h4>
+                        <a data-target="#modalPython" role="button" data-toggle="modal" class="btn btn-warning">Skill Summary</a>
+                        <div class="modal fade" id="modalPython">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/Python_logo.png" alt="JavaScript" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>Python</h3>
+                                            Wonderously simple, Deceptively powerful.
+                                        </p>
+                                        <p>
+                                            Python was the first language I learned when I started coding, and its sparse elegance perenially draws me back for a bit of fiddling about. Always a strong-backup to have if you can't get something to work in a more strict langauge.
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                I've used:
+                                                <ul>
+                                                    <li>Python3</li>
+                                                    <li>Python2</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/MSNET_logo.png" alt="Web Dev Languages" class="languageItem">
+                        </span>
+                        <h4>
+                            <strong>C# / MVC</strong>
+                        </h4>
+                        <a data-target="#modalMSNET" role="button" data-toggle="modal" class="btn btn-warning">Skill Summary</a>
+
+                        <div class="modal fade" id="modalMSNET">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/MSNET_logo.png" alt=".NET C# MVC" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>PlaceHOLDER</h3>
+                                            PLACEHOLDER
+                                        </p>
+                                        <p>
+                                           PLACEHOLDER
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                PLACEHOLDER
+                                                <ul>
+                                                    <li>C#</li>
+                                                    <li>Entity Framework</li>
+                                                    <li>LINQ</li>
+                                                    <li>MVC</li>
+                                                    <li>Debugging Tools</li>
+                                                    <li>Visual Studio/TFS Integration</li>
+                                                    <li>Vitual Studio/Azure Integration</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                <hr class="medium">
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/webDev.png" alt="Web Dev Languages" class="languageItem">
+                        </span>
+                        <h4>
+                            <strong>Web Experience</strong>
+                        </h4>
+                        <a data-target="#modalWebdev" role="button" data-toggle="modal" class="btn btn-warning">Skill Summary</a>
+
+                        <div class="modal fade" id="modalWebdev">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/HTML5_logo.png" alt="HTML5" class="modalLanguage text-center">
+                                        <img src="img/CSS3_logo.png" alt="CSS3" class="modalLanguage text-center">
+                                        <img src="img/JS_logo.png" alt="JavaScript" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>Modern Web-Development Formats</h3>
+                                            Although web-design is not my preferred arena, I've spent the time to learn the industry standard languages and formats so that I can be a contributing member of any team and better address and implement my clients' needs in the online world.
+                                        </p>
+
+                                        <p>
+                                            <strong>
+                                                I can work with:
+                                                <ul>
+                                                    <li>HTML5</li>
+                                                    <li>CSS3</li>
+                                                    <li>JavaScript</li>
+                                                    <li>jQuery</li>
+                                                    <li>Bootstrap3</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/GITFS_logo.png" alt="Version Control" class="languageItem">
+                        <h4>
+                            <strong>Version Control</strong>
+                        </h4>
+                        <a data-target="#modalVCS" role="button" data-toggle="modal" class="btn btn-warning">Skill Summary</a>
+                        <div class="modal fade" id="modalVCS">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/VCS_logo.png" alt="Version Control" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>Check out, check in!</h3>
+                                            Version control is like your first pair of sweatpants.
+                                        </p> 
+                                        <p>
+                                           You start using them, and you can't help wondering how you ever survived without the comfort and safety that they offer. Much like sweatpants, it's hard to go back to doing things the old way when the job dictates.  
+                                        </p>
+                                        <p>
+                                            <a href="https://github.com/TlME" target="_blank")>(Check out my profile on GitHub!) <span class="glyphicon glyphicon-new-window"></span></a>
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                I mostly use:
+                                                <ul>
+                                                    <li>Git</li>      
+                                                    <li>Visual Studio TFS</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/AGILE_logo.png" alt="Agile Experience" class="languageItem">
+                        <h4>
+                            <strong>Agile Experience</strong>
+                        </h4>
+                        <a data-target="#modalAgile" role="button" data-toggle="modal" class="btn btn-warning">Skill Summary</a>
+                        <div class="modal fade" id="modalAgile">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/agilecat.gif" alt="JavaScript" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+
+                                            <h3>Developing Quickly and Efficiently</h3>
+
+                                        <p>
+                                          PLACEHOLDER
+                                        </p>
+                                        <p>
+                                         Placeholder
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                I am famililar with:
+                                                <ul>
+                                                    <li>Scrum Experience</li>
+                                                    <li>Ambiguity</li>
+                                                    <li>Continual Process Improvement</li>
+
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                        <p>
+
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/more.png" alt="Coming Soon" class="languageItem">
+                        <h4>
+                            <strong>Continued Exploration</strong>
+                        </h4>
+                        <a data-target="#modalSoon" role="button" data-toggle="modal" class="btn btn-warning">Skill Summary</a>
+                        <div class="modal fade" id="modalSoon">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/more.png" alt="Coming Soon" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>Never Stop Learning.</h3>
+                                            Like most tech people, I'm constantly on the lookout for new and better ways to do things. Below are some of my current (read as: when I last bothered to update this site) areas of interest.
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                PLACEHOLDER
+                                                <ul>
+                                                    <li>PLACEHOLDER</li>
+                                                    <li>For Fun!</li>
+                                                    <li>PLACEHOLDER</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end Dev Skillz-->
+    </section>
+
+ <!---START HUMAN SKILLS SECTION-->
+    <section id="Personality" class="orangeBG">
+        <div class="container">
+            <div class="row text-center">
+                <h1>Personality</h1>
+                <hr class="small">
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/like.png" alt="Thumbs Up" class="languageItem">
+                        </span>
+                        <h4>
+                            <strong>Problem Solver</strong>
+                        </h4>
+                        <a data-target="#likeModal" role="button" data-toggle="modal" class="btn btn-info">Skill Summary</a>
+
+                        <div class="modal fade" id="likeModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/like.png" alt="Thumbs Up" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>Quest for Understanding.</h3>
+                                            I break things to make things. One of the most potent motivators for me is the drive to work through obstacles and barriers to progress. Curiosity compells me to seek out problems and then learn enough about them to create a solution. Most programmers hate bugs, I love fixing them because it gives me an opportunity to delve into the language with a specific interaction in mind. (Otherwise, things get overwhelming quickly.)
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                I enjoy:
+                                                <ul>
+                                                    <li>Finding and fixing bugs</li>
+                                                    <li>Breaking programs to identify potential issues</li>
+                                                    <li>Using hex-editors on applications</li>
+                                                    <li>Picking locks. (Legally, of course.)</li>
+                                                    <li>Theorycrafting</li>
+                                                    <li>Troubleshooting</li>  
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/dependable.png" alt="CSS3" class="languageItem">
+                        <h4>
+                            <strong>Team Oriented</strong>
+                        </h4>
+                        <a data-target="#dependableModal" role="button" data-toggle="modal" class="btn btn-info">Skill Summary</a>
+                        <div class="modal fade" id="dependableModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/dependable.png" alt="CSS3" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>A Better Kind of Tribalism</h3>
+                                            I work best when I'm part of a group that depends on me, and who I can depend on in return. If the team is not happy, I am not happy. As a compulsive problem solver, I usually try to respond to this situation with whatever tools I see as best suited to the task. My motivation suffers when the group I'm in is sufficiently demoralized, and I try my hardest to improve the situation to avoid this.
+                                        </p>
+
+                                        <p>
+                                            <strong>
+                                                Tools of the Trade:
+                                                <ul>
+                                                    <li>Conversation and interaction</li>
+                                                    <li>Positive attitude</li>
+                                                    <li>Jocularity</li>
+                                                    <li>Motivational exhortation</li>
+                                                    <li>Diplomatic suggestions, golden-rule criticism only</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/communication.png" alt="Communication" class="languageItem">
+                        <h4>
+                            <strong>Well Spoken</strong>
+                        </h4>
+                        <a data-target="#modalCommunication" role="button" data-toggle="modal" class="btn btn-info">Skill Summary</a>
+                        <div class="modal fade" id="modalCommunication">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/communication.png" alt="JavaScript" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>I Can Turn a Phrase or Two.</h3>
+                                            Long before I was a developer, I was a debator and a philosophy/liberal arts major. I've found the skills I gained from my prior experience to be very helpful in the more technical sphere. People are alwys going to need something explained to them in a way that they can understand, and I have leveraged my background in the humanities to do a better job of that than the average engineer.
+                                        </p>
+
+                                        <p>
+                                            <strong>
+                                                Here's how:
+                                                <ul>
+                                                    <li>Excellent Listener and conversationalist.</li>
+                                                    <li>Able to turn any concept into an appropriate metaphor on the fly.</li>
+                                                    <li>Comfortable Presenting and doing ad-hoc QA sessions.</li>
+                                                    <li>I have this one joke about bee-keepers that will blow you away.</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/pressure.png" alt="Python" class="languageItem">
+                        <h4>
+                            <strong>Pragmatic</strong>
+                        </h4>
+                        <a data-target="#modalPressure" role="button" data-toggle="modal" class="btn btn-info">Skill Summary</a>
+                        <div class="modal fade" id="modalPressure">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/pressure.png" alt="Diamond" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>It's Common Sense</h3>
+                                            There are two kinds of philosophers in this world, those who dream and those who describe. I've fallen into the latter camp. I have personal algorithms to identify the source of problems, and they flow from several simplistic paradigms that ostensibly govern the major mechanisms of the world.
+                                        </p>
+                                        <p>
+                                            I try not to panic in bad situations, nor become too enamored of an idea. Instead I approach everything from the same, realistic perspective to avoid potential bias and self-deception. Being wrong teaches you more than being right.
+                                        </p>
+
+                                        <p>
+                                            <strong>
+                                                Paradigms?
+                                                <ul>
+                                                    <li>Occam's razor</li>
+                                                    <ul>
+                                                        <li>People are lazy</li>
+                                                        <li>Computers are dumb</li>
+                                                        <li>Among other things...</li>
+                                                    </ul>
+                                                    <li>Balance of power</li>
+                                                    <li>Replicability or random chance.</li>
+
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end 1st Row of skillz-->
+        </div><!--end container-->
+    </section>
+
+<!---START BusinessAcumen SECTION-->
+    <section id="BusinessAcumen" class="redBG">
+        <div class="container">
+            <div class="row text-center">
+                <h1>Business Acumen</h1>
+                <hr class="small">
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/leader.png" alt="Leadership" class="languageItem">
+                        </span>
+                        <h4>
+                            <strong>Leadership</strong>
+                        </h4>
+                        <a data-target="#modalLeadership" role="button" data-toggle="modal" class="btn btn-primary">Skill Summary</a>
+
+                        <div class="modal fade" id="modalLeadership">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/leader.png" alt="Leadership" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>The Higher, the Fewer.</h3>
+                                            Every group needs a leader, and in a power vacuum I'm likely to step up. Even outside of leadership positions, I remain a vocal person trying to maintain input on team strategy and overall goals. I expect to trust my superiors, and a key component of that trust is the dialectic process.
+                                        </p>
+
+                                        <p>
+                                            <strong>
+                                                Being a Leader: 
+                                                <ul>
+                                                    <li>Set team goals and deadlines</li>
+                                                    <li>Explain reasons for said goals.</li>
+                                                    <li>Work to address/integrate concerns from team about goals.</li>
+                                                    <li>Live, maintain, and display a pasion for the project.</li>
+                                                    <li>Be able to enforce discipline, and encourage productivity.</li>
+                                                    <li>Take responsibility for failure of team, give credit to everyone for success.</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/customers.png" alt="Customer-Focused" class="languageItem">
+                        <h4>
+                            <strong>Professional Service</strong>
+                        </h4>
+                        <a data-target="#CustomerFocus" role="button" data-toggle="modal" class="btn btn-primary">Skill Summary</a>
+                        <div class="modal fade" id="CustomerFocus">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/customers.png" alt="CSS3" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>The Customer is Always Right.</h3>
+                                            I've worked a number of service jobs over the years that necessitated superb presentation of customer service standards. I have great phone skills, as well as in-person handling of clients. I'm a programmer, but I do know how to talk to people appropriately. I am constantly aware of how I am the face of whatever enterprise I represent, and I structure my behavior to present that business in the best possible light. I do not get frustrated with customers, I solve problems.
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                Leveraging experience from my history as a(n):
+                                                <ul>
+                                                    <li>IT Helpdesk Technician</li>
+                                                    <li>Butler at Private Resort</li>
+                                                    <li>Insurance Salesman</li>
+                                                    <li>Armchair Hypnotist</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/analytics.png" alt="Analytics" class="languageItem">
+                        <h4>
+                            <strong>Entrepenuerial</strong>
+                        </h4>
+                        <a data-target="#modalAnalytics" role="button" data-toggle="modal" class="btn btn-primary">Skill Summary</a>
+                        <div class="modal fade" id="modalAnalytics">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/analytics.png" alt="Analytics" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>Business is Business.</h3>
+                                            Whenever I have an idea, or am asked to give my input on someone else's idea, I come at it from the perspective of a corporation. I find that approaching things from this exterior perspective gives me a better concept of what exactly I'm dealing with, and whether or not it would be viable to continue expanding on the idea.
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                Corporate Perspective:
+                                                <ul>
+                                                    <li>Does it fulfill a need, and is our solution unique?</li>
+                                                    <li>Is it efficient, scalable, and with satisfactory RoI?</li>
+                                                    <li>Could its production be handed off to some other party without damage?</li>
+                                                    <li>Has it been done before, and can we learn anything from previous efforts?</li>
+                                                    <li>Would implementation harm our other products, or impact other market areas?</li>
+                                                    <li>Is it easily reproduced, and should steps be taken to secure the IP?</li>
+                                                    <li>etc.</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-item">
+                        <img src="img/strategy.png" alt="Strategy" class="languageItem">
+                        <h4>
+                            <strong>Suck Up</strong>
+                        </h4>
+                        <a data-target="#modalStrategy" role="button" data-toggle="modal" class="btn btn-primary">Skill Summary</a>
+                        <div class="modal fade" id="modalStrategy">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <img src="img/strategy.png" alt="Strategy" class="modalLanguage text-center">
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            <h3>Licking Boots</h3>
+                                            Unfortunately, I'm not much of a ladder climber or an obsequious person, so if you clicked this hoping to find otherwise, apologies. I show people the same respect that they show me, and I am not afraid to speak my mind or find flaws in leadership direction. (Within reason, of course, I'm sensible enough to know when the horse is dead or discussion is inappropriate.) 
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                Principles:
+                                                <ul>
+                                                    <li>Treat me with respect, I will respect you. 
+                                                        Treat me like dirt, I'm looking for another company who won't.</li>
+                                                    <li>Trust me to do my job, I will trust you to do yours.</li>
+                                                    <li>Be passionate about the project, get passion from the team.</li>
+                                                    <li>I will be honest, and I expect honesty in return.</li>
+                                                </ul>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end 1st Row of skillz-->
+        </div><!--end container-->
+    </section>
+
+    <!-- Callout -->
+    <!--<aside class="contact" id="contactform">
+        <div class="row text-center center-block">
+            <h1>Have your people contact my people.</h1>
+            <hr class="medium" />
+            <form action="http://www.jeflux.com/sendMail.php" method="post" id="contact">
+
+                <div class="col-sm-6">
+                    <div class="controls controls-row">
+                        <label for="name">Name</label><br />
+                        <input type="text" name="name" required placeholder="Your Name!">
+                    </div>
+                    <div class="controls">
+                        <label for="name">Email</label><br />
+                        <input type="email" name="email" placeholder="optional">
+                    </div>
+                    <div class="controls">
+                        <label for="phone">Phone Number</label><br />
+                        <input type="tel" name="phone" placeholder="optional">
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="controls">
+                        <label for="message">Secret Message!</label><br />
+                        <textarea rows="6" name="message" required placeholder="I was writing to say..."></textarea>
+                    </div>
+                    <div class="controls controls-row">
+                        <button class="btn btn-danger" type="submit"><span class="glyphicon glyphicon-envelope"></span>    Send Message!</button>
+                        <button class="btn btn-default" type="reset">Reset</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+
+
+    </aside>-->
+
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>I tell computers what to do.</h1><br />
+            <small>...or at least ask nicely.</small>
+        </div>
+    </aside>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            Coded with <span class="glyphicon glyphicon-heart"></span> by Nick Henegar, with thanks to Jeff Luxmore.
+        </div>
+    </footer>
+    </div>
+
+    <img src="../img/rick.gif" id="rick" />
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--  Custom JavaScript -->
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
-	<title>Index</title>
+	<title>Splash</title>
 </head>
 <body>
 	<div class="container-fluid">
-		<h1>The Main Wonderous Portal</h1>
+		<h1>WONDEROUS</h1>
 		<p>Right now the website is under construction, so if you can see this text, please bear with us as we tidy up the mess, and do all the backround work necessary to produce an outstanding website.</p>
 	</div>
 	
@@ -19,6 +900,4 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </body>
-</html>
-
-
+</html>-->
