@@ -41,8 +41,16 @@ body {
     font-size: 4.5em;
     font-weight: 700;
 }
+#Experience {
+    color:white;
+}
+#Personality {
+    color:white;
+}
 
-
+#BusinessAcumen {
+    color:white;
+}
 
 /* Custom Button Styles */
 
@@ -114,9 +122,16 @@ body {
 .modalLanguage {
     max-height:125px;   
 }
-
+.modal-header {
+    background-color: dimgray;
+}
 .modal-body  {
     text-align:left;
+    background-color: dimgray;
+    color:white;
+}
+.modal-footer {
+    background-color: dimgray;
 }
 
 /* Custom Horizontal Rule */
@@ -265,17 +280,20 @@ img.db {
 .skill-item {
     margin-bottom: 30px;
 }
-
-.blueBG {
-    background:#6897bb;
+.blueBG{
+    background:#1b85b8;
 }
-
-.orangeBG {
-    background:#95DDBE;
+.purpleBG {
+    background:#5a5255;
 }
-
+.tealBG {
+    background:#559e83;
+}
+.goldBG {
+    background:#c3cb71;
+}
 .redBG {
-    background:#CFCFF2;
+    background:#ae5a41;
 }
 
 
