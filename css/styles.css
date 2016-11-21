@@ -21,6 +21,9 @@ body, #everything {
      transform-origin: left top;
 }
 
+span#nameSpace {
+    background-color: rgba(0,0,0,0.4);
+}
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -258,7 +261,7 @@ img.db {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/splash.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -281,7 +284,7 @@ img.db {
     margin-bottom: 30px;
 }
 .blueBG{
-    background:#1b85b8;
+    background-color:#1b85b8;
 }
 .purpleBG {
     background:#5a5255;
@@ -317,7 +320,8 @@ div.thanks {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.png) no-repeat center center scroll;
+    /* background: url(../img/callout.png) no-repeat center center scroll; */
+    background: #c3cb71;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
